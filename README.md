@@ -26,3 +26,20 @@ For help within each panel, use <kbd>?</kbd> this will open all possible command
 
 - Redo with <kbd>CTRL</kbd> <kbd>z</kbd>
 
+## Configuration
+
+### Config Location
+
+- Linux: `~/.config/lazygit/config.yml`
+- MacOS: `~/Library/Application Support/lazygit/config.yml`
+- Windows: `%APPDATA%\lazygit\config.yml`
+
+### Changing default editor to Neovim from Vim
+
+Add the following properties to your `config.yml`
+
+```yml
+os:
+	editCommand: 'nvim'
+```
+
